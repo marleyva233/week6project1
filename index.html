@@ -4,7 +4,7 @@
 		<meta charset="utf-8">
 		<!-- meta tag -->
 		<meta name="viewport" content="width=device-width, initial-scale=1">
-		<title></title>
+		<title>Age Converter</title>
 		<!-- font awesome -->
 		<link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.0.12/css/all.css" integrity="sha384-G0fIWCsCzJIMAVNQPfjH08cyYaUtMwjJwqiRKxxE/rx96Uroj1BtIQ6MLJuheaO9" crossorigin="anonymous">
 		<!-- bootstrap CDN -->
@@ -13,13 +13,18 @@
 		<link rel="stylesheet" href="css/main.css">
 	</head>
 	<body class="bg-dark text-center text-light">
-
-
-
-
-
-
-
+		<div class="container-fluid">
+			<div class="row">
+				<div class="col-12">
+					<h1>Age Converter</h1>
+					<p>Convert your age to months and days:</p>
+					<label>Age</label><input id="age" type="text"><br>
+					<button class="btn btn-light" onclick="convertAge();">Convert!</button>
+					<p id="results">
+					</p>
+				</div>
+			</div>
+		</div>
 		<!--jquery -->
 		<script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script>
 		<!-- popper is required for bootstrap 4 js functionality -->

@@ -2,7 +2,12 @@ h1{
 	font-size: 40px;
 	line-height: 50px;
 }
-
 body{
 	padding: 5%;
+}
+button{
+	display: block;
+}
+label{
+	padding-right: 5px;
 }
