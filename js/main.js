@@ -6,6 +6,9 @@ function convertAge() {
 		alert("Please enter your age!");
 		return false;
 	}
-	document.getElementById("results").innerHTML = "You are " + ageInMonths + " months or " + ageInDays + " days old!";
-	age.value = "";
+	var results=document.getElementById("results");
+		results.classList.add("animated", "fadeInUpBig");
+		results.innerHTML = "You are " + ageInMonths + " months or " + ageInDays + " days old!";
+	document.getElementById()
+	document.getElementById("age").value = "";
 }

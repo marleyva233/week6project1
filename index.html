@@ -9,6 +9,10 @@
 		<link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.0.12/css/all.css" integrity="sha384-G0fIWCsCzJIMAVNQPfjH08cyYaUtMwjJwqiRKxxE/rx96Uroj1BtIQ6MLJuheaO9" crossorigin="anonymous">
 		<!-- bootstrap CDN -->
 		<link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.1.0/css/bootstrap.min.css" integrity="sha384-9gVQ4dYFwwWSjIDZnLEWnxCjeSWFphJiwGPXr1jddIhOegiu1FwO5qRGvFXOdJZ4" crossorigin="anonymous">
+		<!-- my custom fonts -->
+		<link href="https://fonts.googleapis.com/css?family=Open+Sans|Press+Start+2P" rel="stylesheet">
+		<!-- animate css -->
+		<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/3.7.0/animate.min.css">
 		<!-- my custom css -->
 		<link rel="stylesheet" href="css/main.css">
 	</head>
@@ -16,10 +20,12 @@
 		<div class="container-fluid">
 			<div class="row">
 				<div class="col-12">
-					<h1>Age Converter</h1>
+					<h1 class="animated fadeIn">Age Converter</h1>
 					<p>Convert your age to months and days:</p>
 					<label>Age</label><input id="age" type="text"><br>
 					<button class="btn btn-light" onclick="convertAge();">Convert!</button>
+				</div>
+				<div class="col-12 pt-5">
 					<p id="results"></p>
 				</div>
 			</div>
